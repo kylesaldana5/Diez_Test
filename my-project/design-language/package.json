@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "deiz_test",
   "private": true,
   "main": "lib/index.js",
   "version": "0.1.0",
@@ -19,5 +19,8 @@
   "scripts": {
     "start": "diez start",
     "demo": "diez start web"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@kylesaldana5"
   }
 }
